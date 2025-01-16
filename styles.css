@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	gap: 10px;
+}
+
+.item{
+	flex: 1 1 auto;
+	text-align: center;
+	background-color: green;
+}
+.item1{
+	flex: 1 1 auto;
+	text-align: center;
+	background-color: red;
+}
+
+.item2{
+	flex: 1 1 auto;
+	text-align: center;
+	background-color: blue;
+}
